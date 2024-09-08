@@ -1,0 +1,23 @@
+ls
+ls;ls;ls
+echo "yassine     saad"
+echo ${HOME}$HOME
+cat < input.txt
+echo "Additional content" >> output.txt
+$ ls -l | grep ".txt" > file_list.txt
+echo "Hello, redirection!" > output.txt
+echo "Success" && ls > success.txt
+echo "Success" || ls > success.txt
+command_not_found || echo "Error" > error_message.txt
+ls -l > output.txt 2> error.txt
+ls -l | grep ".txt" > output.txt 2>&1
+echo "yassine"&
+command_error 2>> file.apperr
+lssss > file.output 2>&1
+ls | grep ".txt" | wc -l
+ ls -l > output.txt 2>&1 | grep ".txt" >> filtered_output.txt
+ export yassine="val"
+ echo $yassine
+ unset yassine
+
+cat file.txt|tr ' ' ':'
